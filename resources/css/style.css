@@ -1,5 +1,7 @@
 
-
+body{
+    margin:0 auto;
+}
 /* Header */
 header {
     width: 100%;
@@ -17,7 +19,7 @@ header {
   
   header .logo {
     flex: 1;
-    color:#4A4A4A;
+    color:black;
     display:flex;
     align-items: center;
     margin-left:1.5rem;
@@ -34,7 +36,7 @@ header {
   }
   nav li {
     padding-left:1rem;
-    color:#4A4A4A;
+    color:black;
     font-size:1rem;
     line-height:1.6;
     list-style:none;
@@ -43,7 +45,7 @@ header {
   nav a {
     vertical-align: bottom;
     line-height: 1.6;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #4a4a4a;
     text-decoration:none;
   }
@@ -57,7 +59,7 @@ header {
     display: none;
   }
   
-  @media only screen and (max-width: 760px) {
+  @media only screen and (max-width: 768px) {
     header .desktop {
       display: none;
     }
@@ -73,9 +75,10 @@ header {
   
     header .mobile ul {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
       width: 100%;
+      padding: 0;
     }
   
     header .mobile li {
@@ -83,3 +86,40 @@ header {
     }
   }
 
+  /*Start here section */
+
+  .startHere{
+    margin-top:1rem ;
+    width:100%;
+    background-color: rgb(197, 196, 196);
+    display:flex;
+  }
+  .banner{
+    padding:2rem 1.5rem;
+    width:60%;
+    height:auto;
+    object-fit:cover;
+  }
+  .centering{
+    display:flex;
+    flex-direction:column;
+    font-size: 2rem;
+    align-items: left;
+    justify-content: center;
+    padding-left: 2rem;
+    color:rgb(75, 75, 75);
+  }
+.centering a{
+    background-color: rgb(75, 75, 75) ;
+    color:white;
+    text-decoration: none;
+    padding:0.5rem 10rem;
+    width:100%;
+    font-size:1.7rem ;   
+}
+.centering h1{
+    margin-bottom:1.5rem;
+}
+.centering h3{
+    margin:0 0 1rem 0;
+}

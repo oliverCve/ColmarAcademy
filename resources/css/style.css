@@ -1,6 +1,7 @@
 
 body{
     margin:0 auto;
+    border:2px solid gray;
 }
 /* Header */
 header {
@@ -144,16 +145,77 @@ header {
 /* Information */
 .information{
     display:flex;
+    align-items: flex-start;
 }
 .keepPracticing{
     margin-top:1rem ;
-    width:100%;
     background-color:white;
     display:flex;
     flex-direction:column;
+    width:67%;
 }
 .banner1{
     padding:2rem 1.5rem;
-    width:93.5%;
+    width:98%;
     height:100%;
 }
+.information h1{
+  padding:0 1.5rem;
+  margin-top:0;
+  margin-bottom:1.5rem;
+}
+.information p{
+  padding:0 1.5rem;
+}
+.information h3{
+  padding:0 1.5rem;
+}
+.informationItems{
+  display:flex;
+  flex-direction:column;
+  width:40%;
+  align-items:flex-start;
+  margin-top:2rem;
+  margin-left:2rem;
+  /* font-size: 2rem;
+  align-items: left;
+  justify-content: center;
+  padding-left: 2rem;
+  color:rgb(75, 75, 75); */
+
+}
+.items{
+  display:flex;
+  align-items:center;
+  border-bottom: 2px solid rgb(216, 206, 206);
+  border-left:2px solid rgb(216, 206, 206);
+}
+.items img{
+  margin:1rem;
+  width:100%;
+  height:100%;
+}
+.text{
+  width:100%;
+  height:auto;
+  display:flex;
+  flex-direction:column;
+}
+.itemsGuest{
+  background-color: rgb(233, 231, 231);
+  display:flex;
+  align-items:center;
+}
+.itemsGuest img{
+  margin:1rem;
+  width:89%;
+  height:100%;
+}
+.text h1{
+  width:100%;
+}
+.text a{
+  padding:0 1.5rem;
+  text-decoration: none;
+  color:rgb(87, 87, 241);
+} 

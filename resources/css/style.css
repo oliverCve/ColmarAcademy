@@ -219,3 +219,36 @@ header {
   text-decoration: none;
   color:rgb(87, 87, 241);
 } 
+.information .mobile{
+  display:none;
+}
+@media only screen and (max-width: 768px){
+  .information .keepPracticing{
+    display:none;
+  }
+  .information .informationItems{
+    display:none;
+  }
+  .information .mobile{
+    display:flex;
+    
+  }
+  .information .items{
+    flex-direction:column;
+    margin:1rem 1rem;
+  }
+  .information .itemsGuest{
+    flex-direction:column;
+    margin:1rem 1rem;
+  }
+  .information .text{
+    margin-bottom: 2rem;;
+  }
+}
+
+
+
+
+
+
+

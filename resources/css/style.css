@@ -2,6 +2,8 @@
 body{
     margin:0 auto;
     border:2px solid gray;
+    font-family: Helvetica,sans serif;
+    color:rgb(70, 70, 70);
 }
 /* Header */
 header {
@@ -110,7 +112,7 @@ header {
     font-size: 2rem;
     align-items: left;
     justify-content: center;
-    padding-left: 2rem;
+    padding-left: 1rem;
     color:rgb(75, 75, 75);
   }
 .centering a{
@@ -146,6 +148,7 @@ header {
 .information{
     display:flex;
     align-items: flex-start;
+    margin-bottom:2rem;
 }
 .keepPracticing{
     margin-top:1rem ;
@@ -160,15 +163,17 @@ header {
     height:100%;
 }
 .information h1{
-  padding:0 1.5rem;
   margin-top:0;
   margin-bottom:1.5rem;
+  width:80%;
+  padding-left:1.5rem;
 }
 .information p{
-  padding:0 1.5rem;
+  width:80%;
+  padding-left:1.5rem;
 }
 .information h3{
-  padding:0 1.5rem;
+  padding-left:1.5rem;
 }
 .informationItems{
   display:flex;
@@ -212,12 +217,13 @@ header {
   height:100%;
 }
 .text h1{
-  width:100%;
+  width:80%;
 }
 .text a{
-  padding:0 1.5rem;
   text-decoration: none;
   color:rgb(87, 87, 241);
+  width:80%;
+  padding-left:1.5rem;
 } 
 .information .mobile{
   display:none;
@@ -236,6 +242,7 @@ header {
   .information .items{
     flex-direction:column;
     margin:1rem 1rem;
+    border:none;
   }
   .information .itemsGuest{
     flex-direction:column;
@@ -245,6 +252,63 @@ header {
     margin-bottom: 2rem;;
   }
 }
+/* Start Learning  */
+.learning{
+  background-color: rgb(230, 228, 228);
+  text-align: center;
+  width:100%;
+}
+.container{
+  display:flex;
+  flex-wrap:wrap;
+  gap:2rem;
+  justify-content: flex-end;
+  width: 95%;
+  height:100%;
+
+}
+ .learning h1{
+  padding:2rem 0;
+  margin:0;
+ }
+.containerItems{
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+  max-width:30%;
+  height: auto;
+}
+.containerItems img{
+  width:100%;
+  height:auto;
+}
+.learning .learningMobile{
+  display:none;
+}
+@media only screen and (max-width: 768px){
+  .learning{
+    background-color: white;
+  }
+  .learning .container {
+    display:none;
+  }
+  .learning .learningMobile{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+  }
+  .learningMobile h2{
+    background-color:  rgb(226, 223, 223);
+    width:90%;
+    padding-top:1rem;
+    padding-bottom:1.5rem;
+    text-align:start;
+    padding-left:1rem;
+    margin:0.25rem;
+  }
+}
+
 
 
 

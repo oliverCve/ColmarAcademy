@@ -75,10 +75,6 @@ header {
       max-height:3rem;
     }
   
-    header .content {
-      /* padding: .5rem 0; */
-     
-    }
   
     header .mobile ul {
       display: flex;
@@ -251,6 +247,9 @@ header {
   .information .text{
     margin-bottom: 2rem;;
   }
+  .information h1{
+    margin-bottom:1rem;
+  }
 }
 /* Start Learning  */
 .learning{
@@ -265,6 +264,7 @@ header {
   justify-content: flex-end;
   width: 95%;
   height:100%;
+  padding-bottom:2rem;
 
 }
  .learning h1{
@@ -298,6 +298,9 @@ header {
     align-items:center;
 
   }
+  .learning h1{
+    padding:0;
+  }
   .learningMobile h2{
     background-color:  rgb(226, 223, 223);
     width:90%;
@@ -308,7 +311,45 @@ header {
     margin:0.25rem;
   }
 }
+/* Thesis exhibit */
+.thesis{
+  text-align: center;
+}
+.contentThesis{
+  display:flex;
+  /* align-items:center */
 
+}
+.videoThesis{
+  width:60%;
+  height:auto;
+  padding:0 1.5rem;
+}
+.textThesis{
+  display:flex;
+  flex-direction:column;
+}
+.imgThesis{
+  display:flex;
+  width:95%;
+  height:auto;
+  padding:1rem 0 1rem 1rem;
+}
+.imgThesis1{
+  display:flex;
+  width:95%;
+  height:auto;
+  padding:1rem 0 1rem 1rem;
+  background-color: rgb(177, 177, 177); 
+}
+.imgThesis img{
+  width:35%;
+  height:100%;
+}
+.imgThesis1 img{
+  width:35%;
+  height:100%;
+}
 
 
 

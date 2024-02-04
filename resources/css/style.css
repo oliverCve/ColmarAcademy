@@ -315,14 +315,17 @@ header {
 .thesis{
   text-align: center;
 }
+.thesis h1{
+  margin:2rem 0;
+}
 .contentThesis{
   display:flex;
-  /* align-items:center */
+  align-items:flex-start;
 
 }
 .videoThesis{
-  width:60%;
-  height:auto;
+  width:95%;
+  height:100%;
   padding:0 1.5rem;
 }
 .textThesis{
@@ -332,15 +335,15 @@ header {
 .imgThesis{
   display:flex;
   width:95%;
-  height:auto;
+  height:100%;
   padding:1rem 0 1rem 1rem;
 }
 .imgThesis1{
   display:flex;
   width:95%;
-  height:auto;
+  height:100%;
   padding:1rem 0 1rem 1rem;
-  background-color: rgb(177, 177, 177); 
+  background-color: rgb(226, 223, 223); 
 }
 .imgThesis img{
   width:35%;
@@ -350,9 +353,40 @@ header {
   width:35%;
   height:100%;
 }
+.videos{
+  width:60%;
+  display:flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+.videos h2{
+  margin:1.5rem 0 0.5rem 1.5rem;
+
+}
 
 
 
+/* Footer */
+
+footer{
+  display:flex;
+  align-items: center;
+}
+.terms{
+  display:flex;
+  justify-content: space-around;
+}
+.copyright{
+  display:flex;
+  flex:1;
+  margin-left:1.5rem;
+}
+footer a{
+  padding-right:1rem;
+  text-decoration: none;
+  color:gray;
+
+}
 
 
 

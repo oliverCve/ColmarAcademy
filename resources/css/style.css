@@ -208,6 +208,7 @@ header {
   align-items:center;
 }
 .itemsGuest img{
+  max-width:13rem;
   margin:1rem;
   width:35%;
   height:100%;
@@ -348,11 +349,13 @@ header {
   width:95%;
   height:100%;
   padding:1rem 0 1rem 1rem;
+  margin:1rem 0 1rem 1rem;
 }
 .imgThesis1{
   display:flex;
   width:95%;
   height:100%;
+  margin:1rem 0 1rem 1rem;
   padding:1rem 0 1rem 1rem;
   background-color: rgb(226, 223, 223); 
 }

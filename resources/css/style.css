@@ -193,7 +193,7 @@ header {
 }
 .items img{
   margin:1rem;
-  width:100%;
+  width:35%;
   height:100%;
 }
 .text{
@@ -209,7 +209,7 @@ header {
 }
 .itemsGuest img{
   margin:1rem;
-  width:89%;
+  width:30%;
   height:100%;
 }
 .text h1{
